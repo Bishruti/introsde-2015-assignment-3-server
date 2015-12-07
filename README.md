@@ -1,4 +1,4 @@
-# Introduction to Service Design And Engineering Assignment 3
+# Introduction to Service Design And Engineering Assignment 3 Server
 Submitted By: Bishruti Siku
 
 This assignment is mainly focused on implementing services that follows the SOAP protocol. In this module, we will get acquainted with implementing SOAP web services using JAX-WS, adding JPA to access databases. In this project I have stored data in database using SQLite and performed various operations like `read`, `write`, `update` and `delete`. This project is deployed in Heroku and can be accessed from [Heroku Link](https://introsde-assignment3-ehealth.herokuapp.com/ws/people?wsdl). Furthermore, the client application for this server application is implemented in [this project](https://github.com/Bishruti/introsde-2015-assignment-3-client).
