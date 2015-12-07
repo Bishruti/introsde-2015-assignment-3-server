@@ -60,24 +60,43 @@ Database for the project.
 #### Supported Database Queries.
 
 `Method #1: readPersonList() => List` 
+
 Obtains all the people and their details in the list.
+
 `Method #2: readPerson(Long id) => Person`
+
 Obtains a person and the details associated to that person from the list.
+
 `Method #3: updatePerson(Person p) => Person`
+
 Edits a person in the list.
+
 `Method #4: createPerson(Person p) => Person`
+
 Adds a new person in the list.
+
 `Method #5: deletePerson(Long id) => Deleted Person Id`
+
 Deletes a person from the list.
+
 `Method #6: readPersonHistory(Long id, String measureType) => List`
+
 Obtains all measure details about a measure of a person in the list.
+
 `Method #7: readMeasureTypes() => List`
+
 Obtains all measures in the list.
+
 `Method #8: readPersonMeasure(Long id, String measureType, Long mid) => Measure`
+
 Obtains measure details about a particular measure of a person in the list.
+
 `Method #9: savePersonMeasure(Long id, Measure m) => Person`
+
 Creates measure details about a measure of a person in the list.
+
 `Method #10: updatePersonMeasure(Long id, Measure m) => Measure`
+
 Updates measure details about a measure of a person in the list.
 
 #### Program Execution
